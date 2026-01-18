@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "institutions": [
+    { "id": "b_chile", "name": "Banco de Chile", "type": "banco_privado", "tier": "premium", "primary_color": "#1D1D1B", "logo_url": "https://aldia.cl/assets/logos/bchile.png", "keywords": ["el chile", "edwards", "dolar", "viajes", "conciertos"] },
+    { "id": "b_santander", "name": "Banco Santander", "type": "banco_privado", "tier": "premium", "primary_color": "#EC0000", "logo_url": "https://aldia.cl/assets/logos/santander.png", "keywords": ["latam", "millas", "roja", "workcafe"] },
+    { "id": "t_cmr", "name": "CMR Falabella", "type": "retail", "tier": "masivo_top", "primary_color": "#1A9D48", "logo_url": "https://aldia.cl/assets/logos/cmr.png", "keywords": ["fpay", "sodimac", "tottus", "puntos", "elite"] },
+    { "id": "t_cencosud", "name": "Cencosud Scotiabank", "type": "retail", "tier": "masivo_top", "primary_color": "#007DC5", "logo_url": "https://aldia.cl/assets/logos/cenco.png", "keywords": ["jumbo", "easy", "paris", "puntos cenco"] },
+    { "id": "b_estado", "name": "Banco Estado / CuentaRUT", "type": "banco_estatal", "tier": "base", "primary_color": "#FF6C0C", "logo_url": "https://aldia.cl/assets/logos/bestado.png", "keywords": ["rut", "caja vecina", "gas", "farmacia"] },
+    { "id": "b_tenpo", "name": "Tenpo", "type": "fintech", "tier": "smart", "primary_color": "#00D1FF", "logo_url": "https://aldia.cl/assets/logos/tenpo.png", "keywords": ["prepago", "bencina", "cuentas", "dolar"] },
+    { "id": "b_itau", "name": "Itaú", "type": "banco_privado", "tier": "premium", "primary_color": "#FF7A00", "logo_url": "https://aldia.cl/assets/logos/itau.png", "keywords": ["bike", "rappi", "clase media"] },
+    { "id": "b_scotia", "name": "Scotiabank", "type": "banco_privado", "tier": "premium", "primary_color": "#EC111A", "logo_url": "https://aldia.cl/assets/logos/scotia.png", "keywords": ["roja", "pesos", "canadá"] },
+    { "id": "b_bci", "name": "BCI / Lider BCI", "type": "hibrido", "tier": "masivo_top", "primary_color": "#002C6B", "logo_url": "https://aldia.cl/assets/logos/bci.png", "keywords": ["mach", "lider", "precios bajos", "irarrázaval"] },
+    { "id": "c_andes", "name": "Caja Los Andes", "type": "caja", "tier": "beneficio", "primary_color": "#005697", "logo_url": "https://aldia.cl/assets/logos/andes.png", "keywords": ["salud", "bonos", "reembolso", "farmacia"] }
+  ]
+}
