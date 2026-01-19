@@ -1,16 +1,50 @@
 {
-  "version": "1.0.0-MVP",
-  "last_updated": "2026-01-18",
+  "version": "1.1.0",
   "rules": [
-    { "id": "rule_001", "days": [1], "category": "farmacia", "issuer_id": "b_estado", "commerce_name": "Dr. Simi", "benefit_value": "40% OFF", "condition": "Pagando con CuentaRUT", "smart_tip": "Aunque tengas Isapre, este descuento es imbatible. Úsalo para compras grandes de remedios, el ahorro es real." },
-    { "id": "rule_002", "days": [2], "category": "farmacia", "issuer_id": "b_bci", "commerce_name": "Salcobrand", "benefit_value": "20% OFF", "condition": "Pagando con Tarjeta Lider Bci", "smart_tip": "Ideal para dermocosmética o vitaminas que no cubre el Simi. Recuerda dar tu RUT antes de pagar." },
-    { "id": "rule_003", "days": [5], "category": "combustible", "issuer_id": "b_tenpo", "commerce_name": "Petrobras", "benefit_value": "$150 / litro", "condition": "Cashback en la App", "smart_tip": "El rey de la bencina. Llena el estanque hoy viernes. La devolución te llega a la cuenta Tenpo directo." },
-    { "id": "rule_004", "days": [6, 7], "category": "combustible", "issuer_id": "t_cmr", "commerce_name": "Copec", "benefit_value": "$50 / litro", "condition": "Cliente Elite / Premium", "smart_tip": "No es el ahorro más grande, pero es rápido. Descuento directo en caja sin abrir apps. Comodidad para el finde." },
-    { "id": "rule_005", "days": [4], "category": "restaurante", "issuer_id": "b_chile", "commerce_name": "Ruta Gastronómica", "benefit_value": "40% OFF", "condition": "Restaurantes Seleccionados (Niu, Tiramisú)", "smart_tip": "La joya de la corona. Invita a comer hoy. La cuenta baja casi a la mitad y quedas como rey." },
-    { "id": "rule_006", "days": [5, 6], "category": "restaurante", "issuer_id": "b_santander", "commerce_name": "Ruta Santander", "benefit_value": "25-40% OFF", "condition": "Locales Adheridos", "smart_tip": "Salva la salida del viernes. Revisa la lista en la web del banco antes de elegir dónde sentarte." },
-    { "id": "rule_007", "days": [2], "category": "cafeteria", "issuer_id": "b_chile", "commerce_name": "Starbucks", "benefit_value": "Descuento Bebidas", "condition": "Código en App Mi Banco", "smart_tip": "Tu café de la mañana más barato. No pagues precio de pizarra si tienes el Chile." },
-    { "id": "rule_008", "days": [1, 3], "category": "supermercado", "issuer_id": "t_cencosud", "commerce_name": "Jumbo", "benefit_value": "Ofertas Exclusivas", "condition": "Productos Etiqueta Amarilla", "smart_tip": "Ojo aquí: El descuento es bueno PERO solo en productos seleccionados (Cuisine & Co). No te emociones llenando el carro con todo." },
-    { "id": "rule_009", "days": [1], "category": "supermercado", "issuer_id": "b_bci", "commerce_name": "Lider", "benefit_value": "6% Total Boleta", "condition": "Sin tope", "smart_tip": "El mejor día para hacer el pedido del mes. El 6% parece poco, pero en una compra de $200.000 son 12 lucas de ahorro." },
-    { "id": "rule_010", "days": [1, 2, 3, 4, 5, 6, 7], "category": "digital", "issuer_id": "all", "commerce_name": "Streaming (Netflix/Disney)", "benefit_value": "Auditoría", "condition": "Siempre", "smart_tip": "Higiene financiera: ¿Realmente viste algo en Disney+ este mes? Si no, córtalo hoy. Son casi 10 lucas al año que regalas." }
+    {
+      "id": "rule_lider_lunes",
+      "days": [1],
+      "issuer_id": "b_bci",
+      "commerce_name": "Lider",
+      "benefit_value": "6%",
+      "condition": "Pagando con Lider BCI",
+      "smart_tip": "Compra la mercadería del mes hoy. El 6% suma rápido en carros grandes."
+    },
+    {
+      "id": "rule_bencina_tenpo",
+      "days": [1],
+      "issuer_id": "t_tenpo",
+      "commerce_name": "Petrobras / Shell",
+      "benefit_value": "$100 / litro",
+      "condition": "Tarjeta Física o Prepago",
+      "smart_tip": "Si tienes que llenar estanque, Tenpo suele tirar promo los lunes. Revisa la app para activar."
+    },
+    {
+      "id": "rule_farmacia_bchile",
+      "days": [1, 2],
+      "issuer_id": "b_chile",
+      "commerce_name": "Salcobrand",
+      "benefit_value": "20% Dcto",
+      "condition": "Clientes Banco de Chile",
+      "smart_tip": "Medicamentos caros? Hoy y mañana son tus días."
+    },
+    {
+      "id": "rule_copec_domingo",
+      "days": [0, 7],
+      "issuer_id": "t_cmr",
+      "commerce_name": "Copec",
+      "benefit_value": "$50 / litro",
+      "condition": "Cliente Elite / Premium",
+      "smart_tip": "No es el ahorro más grande, pero es rápido. Descuento directo en caja."
+    },
+    {
+      "id": "rule_streaming",
+      "days": [0, 1, 2, 3, 4, 5, 6, 7],
+      "issuer_id": "t_tenpo",
+      "commerce_name": "Streaming (Netflix/Disney)",
+      "benefit_value": "Auditoría",
+      "condition": "Siempre",
+      "smart_tip": "Higiene financiera: ¿Realmente viste algo en Disney+ este mes? Si no, córtalo hoy."
+    }
   ]
 }
